@@ -1,18 +1,13 @@
 <snippet>
 	<content><![CDATA[
----
-title: ${1:title}
-author: tracerZzz 
-excerpt: <img src="${2:url}" width="80%"></br><span style="font-size:18px;color:#B6B5B5;">${3:describe}</span>
-tags: 
-- ${4:tag1}
-- ${5:tag2}
----
+```${1:javascript}
+${2:code}
+```
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
-	<tabTrigger>mdt</tabTrigger>
+	<tabTrigger>mdc</tabTrigger>
 	<scope>text.html.markdown.gfm meta.paragraph.markdown,text.html.markdown meta.paragraph.markdown,text.html.markdown.multimarkdown meta.content.multimarkdown meta.paragraph.markdown</scope>
 </snippet>

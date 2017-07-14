@@ -3,7 +3,7 @@
 ---
 title: ${1:title}
 author: tracerZzz 
-excerpt: <img src="${2:url}" width="80%"></br><span style="font-size:18px;color:#B6B5B5;">${3:describe}</span>
+excerpt: <img src="${2:url}" width="100%"></br>${3:describe}
 tags: 
 - ${4:tag1}
 - ${5:tag2}
